@@ -1,0 +1,54 @@
+{
+    "paths": [
+        {
+            "name": "/addticker",
+            "lambdaFunction": "addTicker",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/addticker"
+        },
+        {
+            "name": "/tickers",
+            "lambdaFunction": "fetchTickers",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/tickers"
+        }
+    ],
+    "resourceName": "fintechconnector",
+    "apiName": "fintechconnector",
+    "functionArns": [
+        {
+            "lambdaFunction": "addTicker"
+        },
+        {
+            "lambdaFunction": "fetchTickers"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-fintechapp-dev-145806-authRole",
+        "unAuthRoleName": "amplify-fintechapp-dev-145806-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "addTicker",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "fetchTickers",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
