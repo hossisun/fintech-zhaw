@@ -10,6 +10,18 @@
       "StackName": "amplify-fintechapp-dev-145806",
       "StackId": "arn:aws:cloudformation:eu-central-1:207453352615:stack/amplify-fintechapp-dev-145806/90aa5950-9ac5-11eb-8ada-06c62dcf3f3a",
       "AmplifyAppId": "d3uex2aq3vn8q5"
+    },
+    "categories": {
+      "function": {
+        "fetchTickers": {
+          "deploymentBucketName": "amplify-fintechapp-dev-145806-deployment",
+          "s3Key": "amplify-builds/fetchTickers-686d62324e4343523443-build.zip"
+        },
+        "addTicker": {
+          "deploymentBucketName": "amplify-fintechapp-dev-145806-deployment",
+          "s3Key": "amplify-builds/addTicker-466847496c4c7371536b-build.zip"
+        }
+      }
     }
   }
 }
