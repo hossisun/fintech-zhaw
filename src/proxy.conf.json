@@ -1,0 +1,7 @@
+{
+  "/dev/*": {
+      "target": "https://64dcfj9tql.execute-api.eu-central-1.amazonaws.com",
+      "secure": false,
+      "logLevel": "debug"
+  }
+}

@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "amplify-push": "pipenv run --python=/Users/admin/opt/anaconda3/bin/python3.8 amplify push"
   },
   "private": true,
   "dependencies": {
