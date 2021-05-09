@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../../Long-Term-Stock-Price-Growth-Prediction-using-NLP-on-10-K-Financial-Reports"
+		},
+		{
+			"name": "FOMC_NLP_Sentiment_Analysis",
+			"path": ".."
+		},
+		{
+			"name": "Sentiment-Analysis-Financial-Health-NLP",
+			"path": "../../Sentiment-Analysis-Financial-Health-NLP"
+		},
+		{
+			"name": "Sentiment-Analysis-NLTK-ML-LSTM",
+			"path": "../../Sentiment-Analysis-NLTK-ML-LSTM"
+		},
+		{
+			"name": "earnings-call-text-mining-1",
+			"path": "../../earnings-call-text-mining-1"
+		}
+	],
+	"settings": {}
+}
