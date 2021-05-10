@@ -19,7 +19,6 @@ export class CompanyAddComponent implements OnInit {
   }
 
   click(): void {
-    console.log("Clicked wixo");
     API.get("fintechconnector", "/addticker", {})
       .then(response => {
         // Add your code here

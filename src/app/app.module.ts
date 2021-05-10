@@ -1,3 +1,4 @@
+import { TickerService } from './core/service/ticker.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -45,7 +46,9 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     MatProgressSpinnerModule,
     MatPaginatorModule
   ],
-  providers: [],
+  providers: [
+    TickerService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
